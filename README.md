@@ -1,4 +1,3 @@
-
 # Customer & Order Management System
 
 A Java console-based application for managing customers, products, orders, inventory, and business reports.
@@ -53,10 +52,10 @@ A Java console-based application for managing customers, products, orders, inven
 
 ```text
 CustomerOrderManagementSystem/
-├── Main.java
-├── Customer.java
-├── Product.java
-├── Order.java
+├── main.java
+├── customer.java
+├── product.java
+├── order.java
 ├── DataStorage.java
 ├── data/
 │   ├── customers.txt
@@ -78,13 +77,13 @@ Open a terminal in the project folder.
 Compile the application:
 
 ```bash
-javac Main.java Customer.java Product.java Order.java DataStorage.java
+javac main.java customer.java product.java order.java DataStorage.java
 ```
 
 Run the application:
 
 ```bash
-java Main
+java main
 ```
 
 ## Purpose
